@@ -1,9 +1,9 @@
-package org.bukkit.command;
+package org.Offit.command;
 
 import java.util.List;
 
 import org.apache.commons.lang.Validate;
-import org.bukkit.plugin.Plugin;
+import org.Offit.plugin.Plugin;
 
 /**
  * Represents a {@link Command} belonging to a plugin
