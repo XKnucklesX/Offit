@@ -1,6 +1,6 @@
-package org.bukkit.block;
+package org.Offit.block;
 
-import org.bukkit.inventory.Inventory;
+import org.Offit.inventory.Inventory;
 
 /**
  * Represents a chest.
