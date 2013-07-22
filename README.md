@@ -18,16 +18,16 @@ straight to it.
 
 
 Special Thanks:
-*Thanks to EvilSeph and the Bukkit community. - Bukkit = Main/Starter
-*Thanks to Md_5 and the Spigot Community.     - Spigot = Faster/Less lag
-*Thanks to ____ and the Offit Community.      - Offit =  Faster(Then bukkit)/Configurable                                    
+Thanks to EvilSeph and the Bukkit community. - Bukkit = Main/Starter.
+Thanks to Md_5 and the Spigot Community.     - Spigot = Faster/Less lag.
+Thanks to ____ and the Offit Community.      - Offit =  Faster(Then bukkit)/Configurable.                          
 
 Also a very very private thanks to md_5 for making me think of creating it with his Spigot Add on and explaining what his
 and bukkit are in a cool way.
 
-*Bukkit - Pasta
-*Spigot - Sauce
-*Office - Sauce
+Bukkit - Pasta.
+Spigot - Sauce.
+Office - Sauce.
 
 
 
