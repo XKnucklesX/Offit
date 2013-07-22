@@ -1,6 +1,6 @@
-package org.bukkit.command;
+package org.Offit.command;
 
-import org.bukkit.plugin.Plugin;
+import org.Offit.plugin.Plugin;
 
 /**
  * This interface is used by the help system to group commands into sub-indexes based
