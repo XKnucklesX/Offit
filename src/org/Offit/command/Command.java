@@ -1,4 +1,4 @@
-package org.bukkit.command;
+package org.Offit.command;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,13 +6,13 @@ import java.util.List;
 import java.util.Set;
 
 import org.apache.commons.lang.Validate;
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.Server;
-import org.bukkit.entity.Player;
-import org.bukkit.permissions.Permissible;
-import org.bukkit.plugin.PluginDescriptionFile;
-import org.bukkit.util.StringUtil;
+import org.Offit.Bukkit;
+import org.Offit.ChatColor;
+import org.Offit.Server;
+import org.Offit.entity.Player;
+import org.Offit.permissions.Permissible;
+import org.Offit.plugin.PluginDescriptionFile;
+import org.Offit.util.StringUtil;
 
 import com.google.common.collect.ImmutableList;
 
