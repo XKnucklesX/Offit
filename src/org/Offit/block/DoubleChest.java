@@ -1,10 +1,10 @@
-package org.bukkit.block;
+package org.Offit.block;
 
-import org.bukkit.Location;
-import org.bukkit.World;
-import org.bukkit.inventory.DoubleChestInventory;
-import org.bukkit.inventory.Inventory;
-import org.bukkit.inventory.InventoryHolder;
+import org.Offit.Location;
+import org.Offit.World;
+import org.Offit.inventory.DoubleChestInventory;
+import org.Offit.inventory.Inventory;
+import org.Offit.inventory.InventoryHolder;
 
 public class DoubleChest implements InventoryHolder {
     private DoubleChestInventory inventory;
