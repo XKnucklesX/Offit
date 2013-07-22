@@ -1,6 +1,6 @@
-package org.bukkit.command;
+package org.Offit.command;
 
-import static org.bukkit.util.Java15Compat.Arrays_copyOfRange;
+import static org.Offit.util.Java15Compat.Arrays_copyOfRange;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -14,9 +14,9 @@ import java.util.Set;
 import java.util.regex.Pattern;
 
 import org.apache.commons.lang.Validate;
-import org.bukkit.Server;
-import org.bukkit.command.defaults.*;
-import org.bukkit.util.StringUtil;
+import org.Offit.Server;
+import org.Offit.command.defaults.*;
+import org.Offit.util.StringUtil;
 
 public class SimpleCommandMap implements CommandMap {
     private static final Pattern PATTERN_ON_SPACE = Pattern.compile(" ", Pattern.LITERAL);
@@ -66,14 +66,14 @@ public class SimpleCommandMap implements CommandMap {
     }
 
     private void setDefaultCommands(final Server server) {
-        register("bukkit", new SaveCommand());
-        register("bukkit", new SaveOnCommand());
-        register("bukkit", new SaveOffCommand());
-        register("bukkit", new StopCommand());
-        register("bukkit", new VersionCommand("version"));
-        register("bukkit", new ReloadCommand("reload"));
-        register("bukkit", new PluginsCommand("plugins"));
-        register("bukkit", new TimingsCommand("timings"));
+        register("offit", new SaveCommand());
+        register("offit", new SaveOnCommand());
+        register("offit", new SaveOffCommand());
+        register("offit", new StopCommand());
+        register("offit", new VersionCommand("version"));
+        register("offit", new ReloadCommand("reload"));
+        register("offit", new PluginsCommand("plugins"));
+        register("offit", new TimingsCommand("timings"));
     }
 
     /**
