@@ -1,11 +1,11 @@
-package org.bukkit.block;
+package org.Offit.block;
 
-import org.bukkit.Chunk;
-import org.bukkit.Location;
-import org.bukkit.Material;
-import org.bukkit.World;
-import org.bukkit.material.MaterialData;
-import org.bukkit.metadata.Metadatable;
+import org.Offit.Chunk;
+import org.Offit.Location;
+import org.Offit.Material;
+import org.Offit.World;
+import org.Offit.material.MaterialData;
+import org.Offit..metadata.Metadatable;
 
 /**
  * Represents a captured state of a block, which will not change automatically.
