@@ -19,6 +19,7 @@ public interface BlockState extends Metadatable {
 
     /**
      * Gets the block represented by this BlockState
+     * 
      *
      * @return Block that this BlockState represents
      */
