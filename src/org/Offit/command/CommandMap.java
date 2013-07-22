@@ -1,4 +1,4 @@
-package org.bukkit.command;
+package org.Offit.command;
 
 import java.util.List;
 
