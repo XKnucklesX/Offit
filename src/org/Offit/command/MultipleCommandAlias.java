@@ -1,4 +1,4 @@
-package org.bukkit.command;
+package org.Offit.command;
 
 /**
  * Represents a command that delegates to one or more other commands
