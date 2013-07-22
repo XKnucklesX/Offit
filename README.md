@@ -12,7 +12,7 @@ ChangeLog
 
 
 
-.
+
 If you would like something to get added make a commit or a comment and for a issue just make a issue and we will get 
 straight to it.
 
