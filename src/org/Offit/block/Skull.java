@@ -1,6 +1,6 @@
-package org.bukkit.block;
+package org.Offit.block;
 
-import org.bukkit.SkullType;
+import org.Offit.SkullType;
 
 /**
  * Represents a Skull
