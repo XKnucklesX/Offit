@@ -1,6 +1,6 @@
-package org.bukkit.command;
+package org.Offit.command;
 
-import org.bukkit.block.Block;
+import org.Offit.block.Block;
 
 public interface BlockCommandSender extends CommandSender {
     /**
