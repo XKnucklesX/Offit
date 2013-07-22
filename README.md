@@ -3,10 +3,11 @@ Offit
 
 A Addition To The Bukkit API - Offit API
 
+---What is offit?---
 This is a addition to the wonderful to Bukkit made by Evilseph. The Main purpose or goal of this addition is to make it
 more configurable and make it easier turn certain parts off with things in this API. 
 
-ChangeLog
+---ChangeLog---
 
 
 
