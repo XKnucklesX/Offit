@@ -1,7 +1,7 @@
-package org.bukkit.block;
+package org.Offit.block;
 
-import org.bukkit.entity.CreatureType;
-import org.bukkit.entity.EntityType;
+import org.Offit.entity.CreatureType;
+import org.Offit.entity.EntityType;
 
 /**
  * Represents a creature spawner.
