@@ -1,7 +1,7 @@
-package org.bukkit.command;
+package org.Offit.command;
 
-import org.bukkit.Server;
-import org.bukkit.permissions.Permissible;
+import org.Offit.Server;
+import org.Offit.permissions.Permissible;
 
 public interface CommandSender extends Permissible {
 
