@@ -1,4 +1,4 @@
-package org.bukkit.block;
+package org.Offit.block;
 
 public interface CommandBlock extends BlockState {
 
