@@ -1,9 +1,9 @@
-package org.Offit.block;
+package org.bukkit.block;
 
-import org.Offit.inventory.InventoryHolder;
+import org.bukkit.inventory.InventoryHolder;
 
-	
-	public interface Beacon extends BlockState, InventoryHolder {
-	}
-	
-
+/**
+ * Represents a beacon.
+ */
+public interface Beacon extends BlockState, InventoryHolder {
+}

@@ -1,28 +1,49 @@
-package org.Offit.inventory;
-
 package org.bukkit.inventory;
 
-import org.Offit.entity.HumanEntity;
-import org.Offit.event.inventory.InventoryType;
+import org.bukkit.entity.HumanEntity;
+import org.bukkit.event.inventory.InventoryType;
 
-
+/**
+ * Represents a view linking two inventories and a single player
+ * (whose inventory may or may not be one of the two)
+ *
+ * Note: If you implement this interface but fail to satisfy the expected
+ * contracts of certain methods, there's no guarantee that the game
+ * will work as it should.
+ */
 public abstract class InventoryView {
     public final static int OUTSIDE = -999;
-   
+    /**
+     * Represents various extra properties of certain inventory windows.
+     */
     public enum Property {
-       
+        /**
+         * The progress of the down-pointing arrow in a brewing inventory.
+         */
         BREW_TIME(0, InventoryType.BREWING),
-        
+        /**
+         * The progress of the right-pointing arrow in a furnace inventory.
+         */
         COOK_TIME(0, InventoryType.FURNACE),
-      
+        /**
+         * The progress of the flame in a furnace inventory.
+         */
         BURN_TIME(1, InventoryType.FURNACE),
-        
+        /**
+         * How many total ticks the current fuel should last.
+         */
         TICKS_FOR_CURRENT_FUEL(2, InventoryType.FURNACE),
-        
+        /**
+         * In an enchanting inventory, the top button's experience level value.
+         */
         ENCHANT_BUTTON1(0, InventoryType.ENCHANTING),
-       
+        /**
+         * In an enchanting inventory, the middle button's experience level value.
+         */
         ENCHANT_BUTTON2(1, InventoryType.ENCHANTING),
-      
+        /**
+         * In an enchanting inventory, the bottom button's experience level value.
+         */
         ENCHANT_BUTTON3(2, InventoryType.ENCHANTING);
         int id;
         InventoryType style;

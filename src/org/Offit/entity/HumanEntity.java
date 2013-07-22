@@ -1,10 +1,10 @@
-package org.Offit.entity;
+package org.bukkit.entity;
 
-import org.Offit.GameMode;
-import org.Offit.Location;
-import org.Offit.inventory.Inventory;
-import org.Offit.inventory.InventoryHolder;
-import org.Offit.inventory.InventoryView;
+import org.bukkit.GameMode;
+import org.bukkit.Location;
+import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.InventoryHolder;
+import org.bukkit.inventory.InventoryView;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.permissions.Permissible;

@@ -1,11 +1,10 @@
-package org.Offit.block;
+package org.bukkit.block;
 
-import org.Offit.inventory.InventoryHolder;
+import org.bukkit.inventory.InventoryHolder;
 
-
-public class ContainerBlock {
-	
-	@Deprecated
-	public interface ContainerBlock extends InventoryHolder {}
-
-}
+/**
+ * Indicates a block type that has inventory.
+ * @deprecated in favour of {@link InventoryHolder}
+ */
+@Deprecated
+public interface ContainerBlock extends InventoryHolder {}

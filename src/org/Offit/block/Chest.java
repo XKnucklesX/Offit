@@ -1,12 +1,16 @@
-package org.Offit.block;
+package org.bukkit.block;
 
-import org.Offit.inventory.Inventory;
+import org.bukkit.inventory.Inventory;
 
-public class Chest {
-	
-	public interface Chest extends BlockState, ContainerBlock {
-	   
-	    Inventory getBlockInventory();
-	}
-
+/**
+ * Represents a chest.
+ */
+public interface Chest extends BlockState, ContainerBlock {
+    /**
+     * Returns the chest's inventory. If this is a double chest, it returns just
+     * the portion of the inventory linked to this half of the chest.
+     *
+     * @return The inventory.
+     */
+    Inventory getBlockInventory();
 }

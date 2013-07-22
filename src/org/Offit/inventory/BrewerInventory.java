@@ -1,18 +1,18 @@
-package org.Offit.inventory;
+package org.bukkit.inventory;
 
-import org.Offit.block.BrewingStand;
+import org.bukkit.block.BrewingStand;
 
+public interface BrewerInventory extends Inventory {
+    /**
+     * Get the current ingredient for brewing.
+     * @return The ingredient.
+     */
+    ItemStack getIngredient();
+    /**
+     * Set the current ingredient for brewing.
+     * @param ingredient The ingredient
+     */
+    void setIngredient(ItemStack ingredient);
 
-public enum BrewerInventory {
-	
-	public interface BrewerInventory extends Inventory {
-	   
-	    ItemStack getIngredient();
-	   
-	    void setIngredient(ItemStack ingredient);
-
-	    BrewingStand getHolder();
-	}
-	
-
+    BrewingStand getHolder();
 }
