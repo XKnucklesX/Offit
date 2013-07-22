@@ -1,6 +1,6 @@
-package org.bukkit.block;
+package org.Offit.block;
 
-import org.bukkit.Material;
+import org.Offit.Material;
 
 /**
  * Represents a Jukebox
