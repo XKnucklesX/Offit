@@ -1,4 +1,4 @@
-package org.bukkit.block;
+package org.Offit.block;
 
 /**
  * Represents either a SignPost or a WallSign
