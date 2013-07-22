@@ -1,6 +1,6 @@
-package org.bukkit.block;
+package org.Offit.block;
 
-import org.bukkit.inventory.BrewerInventory;
+import org.Offit.inventory.BrewerInventory;
 
 /**
  * Represents a brewing stand.
