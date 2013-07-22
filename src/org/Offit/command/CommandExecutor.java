@@ -1,4 +1,4 @@
-package org.bukkit.command;
+package org.Offit.command;
 
 /**
  * Represents a class which contains a single method for executing commands
