@@ -1,8 +1,6 @@
 package org.bukkit.block;
 
-/**
- * Holds all accepted Biomes in the default server
- */
+
 public enum Biome {
     SWAMPLAND,
     FOREST,
