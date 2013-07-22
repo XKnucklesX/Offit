@@ -1,8 +1,9 @@
 package org.Offit.block;
+<<<<<<< HEAD
+=======
 
-/**
- * Holds all accepted Biomes in the default server
- */
+>>>>>>> 270a7627164b3ec128ebc88f047bf50d10ec7aec
+
 public enum Biome {
     SWAMPLAND,
     FOREST,
