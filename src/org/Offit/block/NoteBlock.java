@@ -1,7 +1,7 @@
-package org.bukkit.block;
+package org.Offit.block;
 
-import org.bukkit.Instrument;
-import org.bukkit.Note;
+import org.Offit.Instrument;
+import org.Offit.Note;
 
 /**
  * Represents a note.
