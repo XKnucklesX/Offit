@@ -1,6 +1,6 @@
-package org.bukkit.block;
+package org.Offit.block;
 
-import org.bukkit.inventory.FurnaceInventory;
+import org.Offit.inventory.FurnaceInventory;
 
 /**
  * Represents a furnace.
