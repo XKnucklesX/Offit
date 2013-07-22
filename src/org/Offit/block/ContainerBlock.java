@@ -1,6 +1,6 @@
-package org.bukkit.block;
+package org.Offit.block;
 
-import org.bukkit.inventory.InventoryHolder;
+import org.Offit.inventory.InventoryHolder;
 
 /**
  * Indicates a block type that has inventory.
