@@ -1,13 +1,13 @@
-package org.bukkit.block;
+package org.Offit.block;
 
 import java.util.Collection;
 
-import org.bukkit.Chunk;
-import org.bukkit.Material;
-import org.bukkit.World;
-import org.bukkit.Location;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.metadata.Metadatable;
+import org.Offit.Chunk;
+import org.Offit.Material;
+import org.Offit.World;
+import org.Offit.Location;
+import org.Offit.inventory.ItemStack;
+import org.Offit.metadata.Metadatable;
 
 /**
  * Represents a block. This is a live object, and only one Block may exist for
